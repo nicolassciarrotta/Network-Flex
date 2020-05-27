@@ -32,7 +32,7 @@ public class Balancer{
 	private int _ALERT = 4;
 	private int _CRITIC = 5;
 	private int _PORT = 8000;
-	private int _INITIALSERVERS = 3;
+	private int _INITIALSERVERS = 2;
 	private String _SERVER = "localhost";
 	private ArrayList<Server> listServer = new ArrayList<Server>();
 	private static Logger log = LoggerFactory.getLogger(Balancer.class);
